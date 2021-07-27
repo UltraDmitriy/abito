@@ -9,6 +9,8 @@ body {
 }
 .header {
     padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 12px;
 }
 .navbar {
     display: flex;
@@ -74,4 +76,61 @@ body {
 }
 .seacrh-button-text {
     margin-left: 5px;
+}
+.page-content {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    grid-column-gap: 30px;
+}
+.card-image {
+    border-radius: 10px;
+    width: 264px;
+    height: 178px;
+    object-fit: cover;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    margin-bottom: 20px;
+}
+.card-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #256EEB;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+.card-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.like {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.card-price {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0A143A;
+    margin-bottom: 10px;
+    display: block;
+}
+.card-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C4C4C4;
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+.card-link {
+    text-decoration: none;
 }
