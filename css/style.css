@@ -3,9 +3,11 @@ body {
     font-size: 14px;
     color: #0A143A;
 }
-.header {
+.container {
     max-width: 1146px;
     margin: auto;
+}
+.header {
     padding-top: 30px;
 }
 .navbar {
